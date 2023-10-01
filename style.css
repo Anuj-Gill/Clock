@@ -1,0 +1,10 @@
+body{
+  padding-top: 35vh;
+  text-align: center;
+}
+
+.clock {
+  background-color: black;
+  width: 50px;
+  height: 30px;
+}
