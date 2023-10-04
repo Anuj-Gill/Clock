@@ -1,5 +1,5 @@
 body{
-  padding-top: 35vh;
+  padding-top: 10vh;
   text-align: center;
 }
 
@@ -19,4 +19,32 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.alarmContainer{
+  margin: 20px;
+  background-color: pink;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+span{
+  margin-right: 10px;
+}
+
+.hourSet,.minSet{
+  width: 40px;
+  height: 20px; 
+}
+
+.setAlarmButton{
+  margin-top: 10px;
+}
+
+.setAlarms{
+  display: flex;
+  flex-direction: column;
 }

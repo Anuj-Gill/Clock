@@ -7,9 +7,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <audio id="alarmTone" src="topGunAnthem.mpeg" type="audio/mpeg"></audio>
+  <!-- time clock -->
   <div class="container">
     <div class="cloackText">Your local time</div>
     <div class="clock" id="clock"></div>
+  </div>
+
+  <!-- alarm part -->
+  <div class="alarmContainer">
+    <form class="form">
+    <div>
+        <input class="hourSet" type="number" max="24" min="0"> <span>Hour</span>
+        <input class="minSet" type="number" max="60" min="0"> <span>Minute</span>
+      
+    </div>
+    <div class="setAlarmButton">
+      <input type="submit" value="Set Alarm">
+    </div>
+  </form>
+  </div>
+
+  <!-- display active alarms -->
+  <div class="displayAlarms">
+    
   </div>
   <script src="script.js"></script>
 </body>
